@@ -1,20 +1,17 @@
 console.log("script running");
-// Select the input elements!
+
 const goSearch = document.querySelector("#go-search");
 const eatSearch = document.querySelector("#eat-search");
 const doSearch = document.querySelector("#do-search");
 
-// Select the go cards
 const griffithObservatory = document.querySelector("#go-1");
 const losangelesZoo = document.querySelector("#go-2");
 const rodeoDrive = document.querySelector("#go-3");
 
-// Select the eat cards
 const bajaSubs = document.querySelector("#eat-1");
 const urthCaffe = document.querySelector("#eat-2");
 const capo = document.querySelector("#eat-3");
 
-// Select the do cards
 const uniStu = document.querySelector("#do-1");
 const six = document.querySelector("#do-2");
 const getty = document.querySelector("#do-3");
