@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="nav-item">
+      <a href="#go">Go</a>
+    </div>
+    <div class="nav-item">
+      <a href="#eat">Eat</a>
+    </div>
+    <div class="nav-item">
+      <a href="#do">Do</a>
+    </div>
+  </div>
+  <div class="header">
+    <h1>
+      The City of Angels
+    </h1>
+  </div>
+  <div class="container">
+    <section>
+      <p class="intro">
+        Let's build a dream vacation for you! Answer each of the questions to get a recommended itinerary.<br /><br />
+        Right now, this site is designed so that if you'd like to plan multiple activities per section, you
+        can!<br /><br />
+        <a href="https://www.discoverlosangeles.com/"> Click here for even more activities in LA! </a>
+      </p>
+    </section>
+    <section class="go" id="go">
+      <div class="section-header">
+        <h2 class="section-title">Dream Destination</h2>
+      </div>
+      <div class="dashboard">
+        <p>
+          Which of the following vibes is most interesting to you: <b>shopping, sightseeing, or animals?</b>
+        </p>
+        <input id="go-search" type="text" placeholder="Enter a vibe" />
+
+      </div>
+      <div class="recommendation hidden" id="go-1">
+        <div class="img-container" id="griffithObservatory">
+          <!--              <img src="https://griffithobservatory.org/wp-content/uploads/2021/03/cameron-venti-c5GkEd-j5vI-unsplash_noCautionTape-1600x800-1638571089.jpg"/>  -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://griffithobservatory.org/"> Griffith Observatory </a>
+          </h3>
+          <p class="recommendation-body">An observatory in Los Angeles, California on the south-facing slope of Mount
+            Hollywood in Griffith Park. It commands a view of the Los Angeles Basin including Downtown Los Angeles to
+            the southeast, Hollywood to the south, and the Pacific Ocean to the southwest. The best vantage point for
+            observing the world-famous Hollywood Sign.</p>
+        </div>
+      </div>
+      <div class="recommendation hidden" id="go-2">
+        <div class="img-container" id="losangelesZoo">
+          <!--              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/LAzoo.jpg/1200px-LAzoo.jpg"/>  -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.lazoo.org/"> Los Angeles Zoo </a>
+          </h3>
+          <p class="recommendation-body">The Los Angeles Zoo is a 133-acre zoo founded in 1966 and located in Los
+            Angeles, California. The city of Los Angeles owns the entire zoo, its land and facilities, and the animals.
+          </p>
+        </div>
+      </div>
+      <div class="recommendation hidden" id="go-3">
+        <div class="img-container" id="rodeoDrive">
+          <!--           <img src="https://www.californiabeaches.com/wp-content/uploads/2016/07/10608389-10204470026685046-2734847019127903921-o_54_990x660.jpg"/>  -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://rodeodrive-bh.com/"> Rodeo Drive </a>
+          </h3>
+          <p class="recommendation-body">Rodeo Drive is a two-mile-long street in Beverly Hills, California, with its
+            southern segment in the City of Los Angeles. Many boutiques can be found here to shop including designer
+            brands.</p>
+        </div>
+      </div>
+    </section>
+    <section class="eat" id="eat">
+      <div class="section-header">
+        <h2 class="section-title">Dream Dinner</h2>
+      </div>
+      <div class="dashboard">
+        <p>
+          Which of the following best describes your dinner budget: <b>expensive, average, or cheap?</b>
+        </p>
+        <input id="eat-search" type="text" placeholder="Enter a budget" />
+
+      </div>
+      <div class="recommendation hidden" id="eat-1">
+        <div class="img-container" id="bajaSubs">
+          <!--              <img src="https://cdn.vox-cdn.com/thumbor/J8D9LH1qSa_uR_s38asRHBWp6wQ=/0x0:2000x1335/1870x1403/filters:focal(840x508:1160x828):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70537303/2020_06_27_BajaSub_010.0.jpg"/>  -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.yelp.com/biz/baja-subs-market-and-deli-northridge"> Baja Subs </a>
+          </h3>
+          <p class="recommendation-body">The Sri Lankan food is the star at the unassuming Baja Subs, which despite the
+            name also leans into Mexican food, takeaway corner store items, and Southeast Asian food alike.</p>
+        </div>
+      </div>
+      <div class="recommendation hidden" id="eat-2">
+        <div class="img-container" id="urthCaffe">
+          <!--           <img src="https://popmenucloud.com/lzaqjwcu/529d7757-c59d-4229-a0a7-bc73d1a9d6ca.jpg"/> -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.urthcaffe.com/menus/lunch-dinner"> Urth Caffé </a>
+          </h3>
+          <p class="recommendation-body">Urth Caffé is something of an LA casual staple. While they have an extensive
+            menu of salads, sandwiches and pizza—plus a full breakfast menu with pretty much anything you could think
+            of—it's really Urth's coffee, tea and pastries that make the spot so popular.
+        </div>
+      </div>
+      <div class="recommendation hidden" id="eat-3">
+        <div class="img-container" id="capo">
+          <!--             <img src="https://thedomesticatedman.files.wordpress.com/2016/09/img_9926.jpg"/> -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.caporestaurant.com/specials"> Capo Restaurant </a>
+          </h3>
+          <p class="recommendation-body">If classic cuisine is your thing, Capo Restaurant is your new best friend.
+            There may not be anything particularly innovative about its menu, but for elegant, sophisticated Italian
+            fare, this tiny piece of Tuscan paradise can’t be beaten. If you want to save your money, avoid the wine
+            list: with temptations like a 1981 Krug for $1300 or a 1996 $4500 Screaming Eagle to entice, you may end up
+            bankrupting yourself in the process.</p>
+        </div>
+      </div>
+    </section>
+    <section class="do" id="do">
+      <div class="section-header">
+        <h2 class="section-title">Dream Diversion</h2>
+      </div>
+      <div class="dashboard">
+        <p>
+          Which of the following activities soundsmost exciting to you: <b>an amusement park, a theme park, a museum, or
+            a pier by the beach?</b>
+        </p>
+        <input id="do-search" type="text" placeholder="Enter an activity" />
+
+      </div>
+      <div class="recommendation hidden" id="do-1">
+        <div class="img-container" id="uniStu">
+          <!--             <img src="https://www.shutoko.jp/ss/shutokodeikou/special/yakei/img/p007_main-960x450.jpg"/> -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.universalstudioshollywood.com/web/en/us?utm_source=google"> Visit Universal Studios
+              Hollywood </a>
+          </h3>
+          <p class="recommendation-body">Universal Studios Hollywood is a film studio and theme park in the San Fernando
+            Valley area of Los Angeles County, California. About 70% of the studio lies within the unincorporated county
+            island known as Universal City while the rest lies within the city limits of Los Angeles, California.</p>
+        </div>
+      </div>
+      <div class="recommendation hidden" id="do-2">
+        <div class="img-container" id="six">
+          <!--             <img src="https://sf-static.sixflags.com/wp-content/uploads/2020/04/sfmm_superman_escape_from_krypton_1440x1533.jpg"/> -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.sixflags.com/magicmountain"> Visit Six Flags Magic Mountain </a>
+          </h3>
+          <p class="recommendation-body">Six Flags Magic Mountain is a 262-acre amusement park located in Valencia,
+            California, 35 miles northwest of downtown Los Angeles. It features world-class roller coasters and over 100
+            rides, games and attractions for the entire family and was voted by USA TODAY readers as America's Best
+            Theme Park.</p>
+
+        </div>
+      </div>
+      <div class="recommendation hidden" id="do-3">
+        <div class="img-container" id="getty">
+          <!--             <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg"/> -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.getty.edu/"> Visit The Getty Center </a>
+          </h3>
+          <p class="recommendation-body">The Getty Center, in Los Angeles, California, is a campus of the Getty Museum
+            and other programs of the Getty Trust. The $1.3 billion Center opened to the public on December 16, 1997 and
+            is well known for its architecture, gardens, and views overlooking Los Angeles.</p>
+        </div>
+      </div>
+      <div class="recommendation hidden" id="do-4">
+        <div class="img-container" id="pier">
+          <!--             <img src="https://www.japan-guide.com/g18/3036_05.jpg"/> -->
+        </div>
+        <div class="recommendation-content">
+          <h3 class="recommendation-title">
+            <a href="https://www.santamonicapier.org/"> Visit Santa Monica Pier </a>
+          </h3>
+          <p class="recommendation-body">A large double-jointed pier at the foot of Colorado Avenue in Santa Monica,
+            California, United States. It contains a small amusement park, concession stands, and areas for views and
+            fishing.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="section-header">
+    </div>
+  </footer>
+
+</body>
+<script src="script.js" defer></script>
+
+</html>
